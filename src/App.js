@@ -3,6 +3,12 @@ import './App.css';
 import NET from 'vanta/src/vanta.net';
 import ContactForm from './ContactForm';
 import { handleScroll } from './scrollFuncs';
+import membersOnlyImage from './images/members-only2.png';
+import todoListImage from './images/todo-list.png';
+import memoryGameImage from './images/memory-game.png';
+import cvProjectImage from './images/cv-project.png';
+import githubImg from './images/github-logo.png';
+import emailImg from './images/email-logo.png';
 
 function App() {
   const section1Ref = useRef(null);
@@ -109,7 +115,7 @@ function App() {
         </h2>
         <div className='project'>
           <div className='projectImageContainer'>
-            <img className='projectImage' alt='Image of members-only application' src='/images/members-only2.png'></img>
+            <img className='projectImage' alt='Image of members-only application' src={membersOnlyImage}></img>
           </div>
           <div className='projectInfo'>
             <h3 className='projectTitle'>Members only chat App</h3>
@@ -136,12 +142,12 @@ function App() {
             </a>
           </div>
           <div className='projectImageContainerRight'>
-            <img className='projectImage' alt='Image of members-only application' src='/images/todo-list.png'></img>
+            <img className='projectImage' alt='Image of members-only application' src={todoListImage}></img>
           </div>
         </div>
         <div className='project'>
           <div className='projectImageContainer'>
-            <img className='projectImage' alt='Image of members-only application' src='/images/memory-game.png'></img>
+            <img className='projectImage' alt='Image of members-only application' src={memoryGameImage}></img>
           </div>
           <div className='projectInfo'>
             <h3 className='projectTitle'>Memory card game App</h3>
@@ -168,7 +174,7 @@ function App() {
             </a>
           </div>
           <div className='projectImageContainerRight'>
-            <img className='projectImage' alt='Image of members-only application' src='/images/cv-project.png'></img>
+            <img className='projectImage' alt='Image of members-only application' src={cvProjectImage}></img>
           </div>
         </div>
       </div>
@@ -194,10 +200,10 @@ function App() {
             </div>
           </div>
           <a className='githubImgA' href='https://github.com/youniverse301?tab=repositories'>
-            <img className='githubImg' src='/images/github-logo.png'></img>
+            <img className='githubImg' src={githubImg}></img>
           </a>
           <a className='emailImgA' href='mailto:bjornengedev@gmail.com'>
-          <img className='emailImg' src='/images/email-logo.png'></img>
+          <img className='emailImg' src={emailImg}></img>
           </a>
           <p className='footerText'>Bjorn Enge ©2024</p>
         </div>
