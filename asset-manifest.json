@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.7242495f.css",
-    "main.js": "/personal-website/static/js/main.9ba731ad.js",
-    "static/js/592.74932e6f.chunk.js": "/personal-website/static/js/592.74932e6f.chunk.js",
-    "static/media/memory-game.png": "/personal-website/static/media/memory-game.be40ae66f42f87d02c94.png",
-    "static/media/members-only2.png": "/personal-website/static/media/members-only2.6aa0573061ac579466ff.png",
-    "static/media/cv-project.png": "/personal-website/static/media/cv-project.5245576a4528ea33f046.png",
-    "static/media/todo-list.png": "/personal-website/static/media/todo-list.6414ee07fdd9393328a7.png",
-    "static/media/email-logo.png": "/personal-website/static/media/email-logo.4f2db89278f9ad3abef6.png",
-    "index.html": "/personal-website/index.html",
-    "main.7242495f.css.map": "/personal-website/static/css/main.7242495f.css.map",
-    "main.9ba731ad.js.map": "/personal-website/static/js/main.9ba731ad.js.map",
-    "592.74932e6f.chunk.js.map": "/personal-website/static/js/592.74932e6f.chunk.js.map"
+    "main.css": "/static/css/main.7242495f.css",
+    "main.js": "/static/js/main.ac7c5000.js",
+    "static/js/592.74932e6f.chunk.js": "/static/js/592.74932e6f.chunk.js",
+    "static/media/memory-game.png": "/static/media/memory-game.be40ae66f42f87d02c94.png",
+    "static/media/members-only2.png": "/static/media/members-only2.6aa0573061ac579466ff.png",
+    "static/media/cv-project.png": "/static/media/cv-project.5245576a4528ea33f046.png",
+    "static/media/todo-list.png": "/static/media/todo-list.6414ee07fdd9393328a7.png",
+    "static/media/email-logo.png": "/static/media/email-logo.4f2db89278f9ad3abef6.png",
+    "index.html": "/index.html",
+    "main.7242495f.css.map": "/static/css/main.7242495f.css.map",
+    "main.ac7c5000.js.map": "/static/js/main.ac7c5000.js.map",
+    "592.74932e6f.chunk.js.map": "/static/js/592.74932e6f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7242495f.css",
-    "static/js/main.9ba731ad.js"
+    "static/js/main.ac7c5000.js"
   ]
 }
