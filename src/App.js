@@ -22,8 +22,8 @@ function App() {
       const netEffect = NET({
         el: '#vanta',
         mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
+        touchControls: false,
+        gyroControls: true,
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
@@ -50,7 +50,7 @@ function App() {
       NET({
         el: '.test2',
         mouseControls: false,
-        touchControls: true,
+        touchControls: false,
         gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
@@ -88,13 +88,13 @@ function App() {
   return (
     <div className={`app ${animationClass}`}>
       <div className={"bg section1"} ref={section1Ref} id="vanta">
-        <div className='textContainer'>
-          <div className='text'>Hello, I'm
-            <span className='special'> Bjorn</span>
+        <div className='homeTextContainer'>
+          <div className='homeText'>Hello, I'm
+            <span className='specialHomeText'> Bjorn</span>
             .
           </div>
-          <div className='text2'>I'm a front-end developer.</div>
-          <button className="btn-76" onClick={() => scrollToSection(section2Ref)}>
+          <div className='homeText2'>I'm a front-end developer.</div>
+          <button className="viewWorkBtn" onClick={() => scrollToSection(section2Ref)}>
             View my work <span className="arrow"></span>
             <span className="top"></span>
             <span className="right"></span>
