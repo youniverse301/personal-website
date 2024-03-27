@@ -512,6 +512,7 @@ html {
 .projectDescrip {
   font-size: 1.3rem;
   overflow: auto;
+  width: 80%;
 }
 
 .fill {
@@ -865,6 +866,7 @@ html {
   }
   .projectDescrip {
     font-size: .7rem;
+    width: auto;
   }
   .fill {
     font-size: .7em;

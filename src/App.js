@@ -4,6 +4,7 @@ import NET from 'vanta/src/vanta.net';
 import ContactForm from './ContactForm';
 import { handleScroll } from './scrollFuncs';
 import membersOnlyImage from './images/members-only2.png';
+import waldoGameImage from './images/wheres-waldo.png';
 import todoListImage from './images/todo-list.png';
 import memoryGameImage from './images/memory-game.png';
 import cvProjectImage from './images/cv-project.png';
@@ -83,7 +84,7 @@ function App() {
     sectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const animationClass = isVantaLoaded ? 'animate' : '';
+  const animationClass = isVantaLoaded ? 'animate' : 'x';
 
   return (
     <div className={`app ${animationClass}`}>
@@ -131,6 +132,25 @@ function App() {
         </div>
         <div className='projectRight'>
           <div className='projectInfoRight'>
+            <h3 className='projectTitle'>Where's Waldo Game</h3>
+            <p className='projectDescrip'>A full stack Where's Waldo themed photo 
+              tagging app built with React, Node.js and MongoDB</p>
+            <a className='fillA' href='https://youniverse301.github.io/todo-list/' target='_blank'>
+              <button className="fill">Live App</button>
+            </a>
+            <a className='fillA' href='https://github.com/youniverse301/todo-list' target='_blank'>
+              <button className="fill">Repository</button>
+            </a>
+          </div>
+          <div className='projectImageContainerRight'>
+            <img className='projectImage' alt='Image of members-only application' src={waldoGameImage}></img>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='projectImageContainer'>
+            <img className='projectImage' alt='Image of todo list application' src={todoListImage}></img>
+          </div>
+          <div className='projectInfo'>
             <h3 className='projectTitle'>To do List App</h3>
             <p className='projectDescrip'>An application to keep track
               of your tasks built with React</p>
@@ -141,15 +161,9 @@ function App() {
               <button className="fill">Repository</button>
             </a>
           </div>
-          <div className='projectImageContainerRight'>
-            <img className='projectImage' alt='Image of members-only application' src={todoListImage}></img>
-          </div>
         </div>
-        <div className='project'>
-          <div className='projectImageContainer'>
-            <img className='projectImage' alt='Image of members-only application' src={memoryGameImage}></img>
-          </div>
-          <div className='projectInfo'>
+        <div className='projectRight'>
+          <div className='projectInfoRight'>
             <h3 className='projectTitle'>Memory card game App</h3>
             <p className='projectDescrip'>Neon Genesis Evangelion themed
               memory card game built with React</p>
@@ -160,21 +174,8 @@ function App() {
               <button className="fill">Repository</button>
             </a>
           </div>
-        </div>
-        <div className='projectRight'>
-          <div className='projectInfoRight'>
-            <h3 className='projectTitle'>Live CV Application</h3>
-            <p className='projectDescrip'>An application to make mock 
-            resumes built with React</p>
-            <a className='fillA' href='https://youniverse301.github.io/cv-project/' target='_blank'>
-              <button className="fill">Live App</button>
-            </a>
-            <a className='fillA' href='https://github.com/youniverse301/cv-project' target='_blank'>
-              <button className="fill">Repository</button>
-            </a>
-          </div>
           <div className='projectImageContainerRight'>
-            <img className='projectImage' alt='Image of members-only application' src={cvProjectImage}></img>
+            <img className='projectImage' alt='Image of members-only application' src={memoryGameImage}></img>
           </div>
         </div>
       </div>

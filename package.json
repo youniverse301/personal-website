@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://youniverse301.github.io/personal-website",
+  "homepage": "https://bjornenge.dev",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
