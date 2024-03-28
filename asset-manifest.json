@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7242495f.css",
-    "main.js": "/static/js/main.ac7c5000.js",
+    "main.css": "/static/css/main.e4c17c33.css",
+    "main.js": "/static/js/main.ae562e61.js",
     "static/js/592.74932e6f.chunk.js": "/static/js/592.74932e6f.chunk.js",
     "static/media/memory-game.png": "/static/media/memory-game.be40ae66f42f87d02c94.png",
+    "static/media/wheres-waldo.png": "/static/media/wheres-waldo.a4a2fcff1e0c37b40b24.png",
     "static/media/members-only2.png": "/static/media/members-only2.6aa0573061ac579466ff.png",
     "static/media/cv-project.png": "/static/media/cv-project.5245576a4528ea33f046.png",
     "static/media/todo-list.png": "/static/media/todo-list.6414ee07fdd9393328a7.png",
     "static/media/email-logo.png": "/static/media/email-logo.4f2db89278f9ad3abef6.png",
     "index.html": "/index.html",
-    "main.7242495f.css.map": "/static/css/main.7242495f.css.map",
-    "main.ac7c5000.js.map": "/static/js/main.ac7c5000.js.map",
+    "main.e4c17c33.css.map": "/static/css/main.e4c17c33.css.map",
+    "main.ae562e61.js.map": "/static/js/main.ae562e61.js.map",
     "592.74932e6f.chunk.js.map": "/static/js/592.74932e6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7242495f.css",
-    "static/js/main.ac7c5000.js"
+    "static/css/main.e4c17c33.css",
+    "static/js/main.ae562e61.js"
   ]
 }
