@@ -135,10 +135,10 @@ function App() {
             <h3 className='projectTitle'>Where's Waldo Game</h3>
             <p className='projectDescrip'>A full stack Where's Waldo themed photo 
               tagging app built with React, Node.js and MongoDB</p>
-            <a className='fillA' href='https://youniverse301.github.io/todo-list/' target='_blank'>
+            <a className='fillA' href='https://wheres-waldo-front-production-6736.up.railway.app/' target='_blank'>
               <button className="fill">Live App</button>
             </a>
-            <a className='fillA' href='https://github.com/youniverse301/todo-list' target='_blank'>
+            <a className='fillA' href='https://github.com/youniverse301/wheres-waldo/' target='_blank'>
               <button className="fill">Repository</button>
             </a>
           </div>
