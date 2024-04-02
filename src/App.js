@@ -119,7 +119,7 @@ function App() {
             <img className='projectImage' alt='Image of members-only application' src={membersOnlyImage}></img>
           </div>
           <div className='projectInfo'>
-            <h3 className='projectTitle'>Members only chat App</h3>
+            <h3 className='projectTitle'>Members Only Chat App</h3>
             <p className='projectDescrip'>Full stack message board project built with
               Express.js and MongoDB</p>
             <a className='fillA' href='https://members-only-production-2ed2.up.railway.app/' target='_blank'>
@@ -151,7 +151,7 @@ function App() {
             <img className='projectImage' alt='Image of todo list application' src={todoListImage}></img>
           </div>
           <div className='projectInfo'>
-            <h3 className='projectTitle'>To do List App</h3>
+            <h3 className='projectTitle'>To-do List App</h3>
             <p className='projectDescrip'>An application to keep track
               of your tasks built with React</p>
             <a className='fillA' href='https://youniverse301.github.io/todo-list/' target='_blank'>
@@ -164,7 +164,7 @@ function App() {
         </div>
         <div className='projectRight'>
           <div className='projectInfoRight'>
-            <h3 className='projectTitle'>Memory card game App</h3>
+            <h3 className='projectTitle'>Memory Card Game App</h3>
             <p className='projectDescrip'>Neon Genesis Evangelion themed
               memory card game built with React</p>
             <a className='fillA' href='https://youniverse301.github.io/memory-game/' target='_blank'>
