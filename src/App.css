@@ -7,7 +7,6 @@
 }
 
 
-
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -148,7 +147,7 @@ html {
   align-items: center;
   font-weight: 900;
   -webkit-mask-image: none;
-  outline: 3px solid #EEF280;
+  outline: 4px solid #EEF280;
   outline-offset: -4px;
   overflow: hidden;
   padding-top: .8rem;
